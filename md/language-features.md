@@ -26,6 +26,7 @@ Note: Not much to say about these. They exist. I don't have experience with them
 # Java 10 Features
 
 
+
 * Adds `var` keyword and type inference for variables
 * 'Container Aware' JVM
   - JVM can tell how much memory is allocated to a container and set it's max heap accordingly 
