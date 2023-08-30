@@ -133,7 +133,3 @@ It is a zip file with a `META-INF` and `META-INF/MANIFEST.MF`
 * The MANIFEST may contain a `Main-Class` entry
 * Needs to specify the class with the `static main` method
 * `java -jar Runnable.jar` will run the program
-
-
-
-
