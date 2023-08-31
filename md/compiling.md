@@ -47,7 +47,7 @@ It's ultimately what will be invoked by any tool that compiles Java to bytecode.
 
 ```sh
 javac MyClass.java
-``` 
+```
 
 This produces another file called `MyClass.class`
 
@@ -102,6 +102,24 @@ public class MyClass {
 
 Note: Do an example of 'old school' download jar and use it as a dependency
 
+
+
+# Class loader
+
+
+
+* Responsible for reading a byte stream and turning it into a `class` object in the JVM
+* The class loader is hierarchical (https://www.baeldung.com/java-classloaders)
+  - **Bootstrap class loader**: Responsible for loading the JDK internal classes
+  - **Extension class loader**: Loads extensions of the core Java classes
+  - **System class loader**: Loads classes from the classpath
+
+Note: Demo different getting classloaders for different classes
+
+
+
+* Class loaders can also load 'resources' (e.g. text files) if they are found in the classpath.
+Note: Demo loading a text file.
 
 
 # Dependency and Build tools
